@@ -6,12 +6,14 @@
     </head>
 
     <body>
-        CZRPG 홈페이지입니다!<br>
-        닉네임<input type="text" placeholder="닉네임을 입력하세요" id="nickname">
-        <button onclick="number()"> 인증번호 받기 </button><br>
+    CZRPG 홈페이지입니다!<br>
+        <form id = "login_form" name = "login_form" method = "post">
+            닉네임<input type="text" placeholder="닉네임을 입력하세요" id="nickname">
+            <button onclick="number()"> 인증번호 받기 </button><br>
 
-        인증번호<input type="password" placeholder="인증번호" id="checknum">
-        <button type="submit" onclick="checknum()"> 로그인 </button><br>
+            인증번호<input type="password" placeholder="인증번호" id="checknum"><br>
+            <button type="submit" onclick="checknum()"> 로그인 </button><br>
+        </form>
 
         <script type="text/javascript" src="resource/java_script/login.js"></script>
     </body>
