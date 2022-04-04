@@ -5,8 +5,6 @@ setpage();
 function setpage() {
     if(name == "") {
         document.write('<p><a href="login.html">로그인<a/></p>');
-        // https://cravatar.eu/helmavatar/_cozy__
-        // <img src="https://cravatar.eu/helmavatar/_cozy__" alt="My Image">
     }
     else {
         document.write('<p>' + name + "님 환영합니다!<br></p>");
