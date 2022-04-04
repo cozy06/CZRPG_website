@@ -8,7 +8,7 @@ function setpage() {
     }
     else {
         document.write('<p>' + name + "님 환영합니다!<br></p>");
-        document.write('<p><img src="https://cravatar.eu/helmavatar/' + name + "\" alt=\"My Image\" width=\"100\" height=\"100\">");
+        document.write('<p><img src="https://cravatar.eu/helmavatar/' + name + "\" alt=\"minecraft skin\" width=\"200\" height=\"200\">");
     }
 }
 
