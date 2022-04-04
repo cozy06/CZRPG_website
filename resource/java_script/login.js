@@ -19,7 +19,7 @@ function checknum() {
     if (true_false == 0) {
         login = 1; //로그인 o
         alert('ok');
-        document.location.href='index.html';
+        document.location.href='index.html?name='+nickname;
     }
     else {
         alert('인증번호를 다시 확인해주세요');
