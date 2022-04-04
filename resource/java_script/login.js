@@ -1,6 +1,5 @@
 var check_number_ran;
 var nickname;
-var login = 0; //로그인 x
 
 function checkonline() {
     nickname = document.getElementById('nickname').value;
@@ -17,8 +16,7 @@ function checknum() {
     var inpnum = document.getElementById('checknum').value;
     var true_false = inpnum - check_number_ran;
     if (true_false == 0) {
-        login = 1; //로그인 o
-        alert('ok');
+        // alert('ok');
         document.location.href='index.html?name='+nickname;
     }
     else {
