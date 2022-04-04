@@ -4,10 +4,10 @@ setpage();
 
 function setpage() {
     if(name == "") {
-        document.write('<a href="login.html">로그인<a/>');
+        document.write('<p><a href="login.html">로그인<a/></p>');
     }
     else {
-        document.write('' + name + "님 환영합니다!<br>");
+        document.write('<p>' + name + "님 환영합니다!<br></p>");
     }
 }
 
