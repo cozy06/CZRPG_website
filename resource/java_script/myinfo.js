@@ -4,6 +4,7 @@ setpage();
 
 function setpage() {
     document.write('<p><img src="https://cravatar.eu/helmavatar/' + name + "/200.png\" alt=\"minecraft skin\" width=\"200\" height=\"200\">");
+    document.write('playername : ' + name + "<br>");
 }
 
 function getParam(sname) {
